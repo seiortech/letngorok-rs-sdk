@@ -1,0 +1,19 @@
+[package]
+name = "letngorok-rs-sdk"
+version = "0.1.0"
+edition = "2021"
+description = "Rust SDK for creating tunnel connections to Letngorok servers"
+license = "MIT"
+repository = "https://github.com/seiortech/letngorok-rs"
+authors = ["Raden Mohamad Rishwan"]
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+serde_repr = "0.1"
+reqwest = { version = "0.12", features = ["json", "stream"] }
+thiserror = "1"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt"] }
+http = "1.0"
