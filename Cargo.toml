@@ -4,8 +4,12 @@ version = "0.1.0"
 edition = "2021"
 description = "Rust SDK for creating tunnel connections to Letngorok servers"
 license = "MIT"
-repository = "https://github.com/seiortech/letngorok-rs"
+repository = "https://github.com/seiortech/letngorok-rs-sdk"
 authors = ["Raden Mohamad Rishwan"]
+documentation = "https://docs.letngorok.studio/"
+homepage = "https://letngorok.studio/"
+keywords = ["letngorok", "tunnel", "sdk", "rust"]
+categories = ["network-programming", "web-programming"]
 
 [dependencies]
 tokio = { version = "1", features = ["full"] }
